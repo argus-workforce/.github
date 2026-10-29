@@ -1,0 +1,33 @@
+name: Tech debt
+description: Document a technical debt item.
+labels:
+  - tech-debt
+body:
+  - type: textarea
+    id: debt
+    attributes:
+      label: What is the debt?
+      description: Describe the technical debt.
+    validations:
+      required: true
+  - type: textarea
+    id: why_now
+    attributes:
+      label: Why now?
+      description: Explain why this should be addressed now.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_approach
+    attributes:
+      label: Proposed approach
+      description: Describe a possible way to address the debt.
+    validations:
+      required: true
+  - type: textarea
+    id: risk_of_leaving_it
+    attributes:
+      label: Risk of leaving it
+      description: What could happen if this debt remains?
+    validations:
+      required: true

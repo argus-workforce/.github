@@ -1,0 +1,14 @@
+name: CI (PHP)
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  hygiene:
+    uses: argus-workforce/workflows/.github/workflows/pr-hygiene.yml@v1
+  quality:
+    uses: argus-workforce/workflows/.github/workflows/php-quality.yml@v1
+    secrets: inherit

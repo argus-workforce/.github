@@ -1,0 +1,5 @@
+{
+  "name": "CI (PHP)",
+  "description": "Run pull request hygiene and PHP quality checks.",
+  "categories": ["PHP"]
+}

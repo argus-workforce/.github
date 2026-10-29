@@ -1,0 +1,5 @@
+{
+  "name": "CI (Node)",
+  "description": "Run pull request hygiene, Node quality, and Playwright end-to-end checks.",
+  "categories": ["JavaScript", "TypeScript"]
+}
