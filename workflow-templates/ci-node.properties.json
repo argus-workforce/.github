@@ -1,5 +1,5 @@
 {
   "name": "CI (Node)",
-  "description": "Run pull request hygiene, Node quality, and Playwright end-to-end checks.",
+  "description": "Run Node quality and Playwright end-to-end checks. Pull request hygiene runs from the organization ruleset.",
   "categories": ["JavaScript", "TypeScript"]
 }

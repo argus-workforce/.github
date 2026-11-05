@@ -7,8 +7,6 @@ on:
       - main
 
 jobs:
-  hygiene:
-    uses: argus-workforce/workflows/.github/workflows/pr-hygiene.yml@v1
   quality:
     uses: argus-workforce/workflows/.github/workflows/node-quality.yml@v1
     secrets: inherit

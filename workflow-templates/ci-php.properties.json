@@ -1,5 +1,5 @@
 {
   "name": "CI (PHP)",
-  "description": "Run pull request hygiene and PHP quality checks.",
+  "description": "Run PHP quality checks. Pull request hygiene runs from the organization ruleset.",
   "categories": ["PHP"]
 }
